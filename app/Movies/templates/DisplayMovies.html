@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="home">
+<div class="container">
+    <ul class="list-group">
+        {% for set in movies %}
+            <li class="list-group-item">{{set.movie1}}</li>
+            <li class="list-group-item">{{set.movie2}}</li>
+            <li class="list-group-item">{{set.movie3}}</li>
+            <li class="list-group-item">{{set.movie4}}</li>
+            <li class="list-group-item">{{set.movie5}}</li>
+            <li class="list-group-item">{{set.movie6}}</li>
+            <li class="list-group-item">{{set.movie7}}</li>
+            <li class="list-group-item">{{set.movie8}}</li>
+            <li class="list-group-item">{{set.movie9}}</li>
+            <li class="list-group-item">{{set.movie10}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</div>
+
+{% endblock %}
